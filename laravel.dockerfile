@@ -5,7 +5,7 @@
 # docker push registry.gitlab.com/juicy-media-ltd/ukpid/ukpid-backend/laravel
 #########
 
-FROM php:8.3-fpm
+FROM php:8.6.0RC5-fpm
 
 RUN apt-get update \
     && apt-get install -y  \
